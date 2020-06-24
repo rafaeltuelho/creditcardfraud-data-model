@@ -7,6 +7,10 @@ public class PotentialFraudFact {
     private Long creditCardNumber;
     private List<CreditCardTransaction> transactions;
 
+    public PotentialFraudFact(){
+        
+    }
+
     public Long getCreditCardNumber() {
         return creditCardNumber;
     }
