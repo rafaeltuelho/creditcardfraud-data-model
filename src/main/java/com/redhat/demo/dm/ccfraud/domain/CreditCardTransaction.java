@@ -23,6 +23,10 @@ public class CreditCardTransaction {
 	private Terminal terminal;
 	private static final DateTimeFormatter DATE_TIME_FORMAT = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss:SSS", Locale.US);
 
+	public CreditCardTransaction(){
+
+	}
+	
 	public CreditCardTransaction(long transactionNumber, long creditCardNumber, BigDecimal amount, long timestamp, Terminal terminal) {
 		this.transactionNumber = transactionNumber;
 		this.creditCardNumber = creditCardNumber;

@@ -12,6 +12,10 @@ public class Terminal {
 	private long id;
 	private CountryCode countryCode;
 
+	public Terminal(){
+		
+	}
+
 	public Terminal(long id, CountryCode countryCode) {
 		this.id = id;
 		this.countryCode = countryCode;
